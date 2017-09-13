@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  height : 100%;
+}
+
+  .show{   }
+
+  #gallery{
+  overflow: hidden;}
+
+
+.gallery_legal {
+    position: absolute;
+    left: 1580px;
+    top: 1049px;
+    width: 320px;
+    height: 12px;
+    z-index: 4;
+    font-family: 'Myriad Pro', Arial, sans-serif;
+    text-align: right;
+    font-size: 12px;
+    line-height: 1;
+    color: rgba(255,255,255,0.5);    
+}
+.gallery_list{
+  position: absolute;
+  left: 330px;
+  top: 218px;
+  width: 1260px;
+  height: 945px;
+  z-index: 4;
+}
+.gallery_close {
+    background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/share_close.png);
+    cursor: pointer;
+    transition: background-image .5s ease;
+    position: absolute;
+    left: 1765px;
+    top: 141px;
+    width: 18px;
+    height: 18px;
+    z-index: 22;
+}
+.gallery_close:hover {
+    background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/share_close_over.png);
+    transition: background-image .5s ease;
+}
+.gallery_list div{
+  position: absolute;
+  background: red;
+  width: 315px;
+  height: 315px;  
+  cursor: pointer;
+}
+.gallery_list .g1{
+  background: url(http://www.hdkcreative.com/developer/vue-gallery-example/g01.jpg) no-repeat;
+  top: 0;
+  left: 0;
+}
+.gallery_list .g2{
+  background: url(http://www.hdkcreative.com/developer/vue-gallery-example/g02.jpg) no-repeat;
+  top: 0;
+  left: 315px;
+}
+.gallery_list .g3{
+  background: url(http://www.hdkcreative.com/developer/vue-gallery-example/g03.jpg) no-repeat;
+  top: 0;
+  left: 630px;
+}
+.gallery_list .g4{
+  background: url(http://www.hdkcreative.com/developer/vue-gallery-example/g04.jpg) no-repeat;
+  top: 0;
+  left: 945px;
+}
+.gallery_list .g5{
+  background: url(http://www.hdkcreative.com/developer/vue-gallery-example/g05.jpg) no-repeat;
+  top: 315px;
+  left: 0;
+}
+.gallery_list .g6{
+  background: url(http://www.hdkcreative.com/developer/vue-gallery-example/g06.jpg) no-repeat;
+  top: 315px;
+  left: 315px;
+}
+.gallery_list .g7{
+  background: url(http://www.hdkcreative.com/developer/vue-gallery-example/g07.jpg) no-repeat;
+  top: 315px;
+  left: 630px;
+}
+.gallery_list .g8{
+  background: url(http://www.hdkcreative.com/developer/vue-gallery-example/g08.jpg) no-repeat;
+  top: 315px;
+  left: 945px;
+}
+.gallery_list .g9{
+  background: url(http://www.hdkcreative.com/developer/vue-gallery-example/g09.jpg) no-repeat;
+  top: 630px;
+  left: 0;
+}
+.gallery_list .g10{
+  background: url(http://www.hdkcreative.com/developer/vue-gallery-example/g10.jpg) no-repeat;
+  top: 630px;
+  left: 315px;
+}
+.gallery_list .g11{
+  background: url(http://www.hdkcreative.com/developer/vue-gallery-example/g11.jpg) no-repeat;
+  top: 630px;
+  left: 630px;
+}
+.gallery_list .g12{
+  background: url(http://www.hdkcreative.com/developer/vue-gallery-example/g12.jpg) no-repeat;
+  top: 630px;
+  left: 945px;
+}
+
+.gal{
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+    left: 0px;
+    top: 0px;
+    width: 1919px;
+    height: 1080px;
+    z-index: 1; 
+    opacity: 0;
+    
+    transition: all 0.3s;
+}
+.gal.show{
+  opacity: 1;
+  z-index: 7;
+  transition: all 0.3s;
+}
+.gal.bg1{
+  background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/gal_01.jpg) ;
+}
+.gal.bg2{
+  background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/gal_02.jpg) ;
+}
+.gal.bg3{
+  background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/gal_03.jpg) ;
+}
+.gal.bg4{
+  background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/gal_04.jpg) ;
+}
+.gal.bg5{
+  background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/gal_05.jpg) ;
+}
+.gal.bg6{
+  background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/gal_06.jpg) ;
+}
+.gal.bg7{
+  background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/gal_07.jpg) ;
+}
+.gal.bg8{
+  background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/gal_08.jpg) ;
+}
+.gal.bg9{
+  background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/gal_09.jpg) ;
+}
+.gal.bg10{
+  background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/gal_10.jpg) ;
+}
+.gal.bg11{
+  background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/gal_11.jpg) ;
+}
+.gal.bg12{
+  background-image: url(http://www.hdkcreative.com/developer/vue-gallery-example/gal_12.jpg) ;
+}
+
