@@ -1,5 +1,4 @@
 
-    Vue.use(vScroll) 
 
  new Vue({
    el:    '#gallery',
